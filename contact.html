@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Black Website - Contact</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            text-align: center;
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: space-between; /* Space out brand and other elements */
+            align-items: center; /* Align items vertically */
+            padding: 20px;
+            background-color: #000;
+            position: relative;
+        }
+
+        .brand {
+            font-size: 48px; /* Increased font size for the brand name */
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px; /* Added margin for spacing */
+            font-weight: 625; 
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px; /* Add space between links */
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .nav-links a:hover {
+            color: #aaa;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 40vh;
+            padding: 20px;
+            background-color: #000;
+            position: relative;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 300; 
+        }
+
+        .hero p {
+            font-size: 20px; /* Adjusted font size */
+            color: #e0e0e0; /* Light grey color similar to Apple's style */
+            margin: 0;
+            font-weight: 200; 
+        }
+
+        .hero a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 200; 
+        }
+
+        .hero a:hover {
+            color: #aaa;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #111;
+            color: #aaa;
+            font-size: 14px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <a href="index.html" class="brand" style="font-size: 34px;">HydrogenResearch</a> <!-- HydrogenResearch link to Home -->
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="versions.html">Versions</a>
+            <a href="blog.html">Blog</a>
+           <!-- <a href="contact.html">Contact</a> , Moved Contact link to the right side -->
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p style="font-size: 22px;">We would love to hear from you. Whatever you are curious about, we are ready to answer any and all your questions.</p>
+            <p>Email: <a href="mailto:hydrogenresearch.contact@gmail.com">hydrogenresearch.contact@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 HydrogenResearch. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
