@@ -70,6 +70,15 @@
             line-height: 1.6;
         }
 
+        .post-content img {
+            max-width: 20%; /* Adjust the size of the image */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Optional: add some rounded corners */
+            float: left; /* Float the image to the left */
+            margin-right: 15px; /* Space between the image and text */
+            margin-bottom: 10px; /* Space below the image */
+        }
+
         footer {
             padding: 20px;
             background-color: #111;
@@ -83,13 +92,18 @@
         footer p {
             margin: 0;
         }
+
+        /* Clear floats after the images */
+        .clear {
+            clear: both;
+        }
     </style>
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="nav-bar">
         <a href="index.html" class="brand" style="font-size: 34px; font-weight: 400;">HydrogenResearch</a> <!-- HydrogenResearch link to Home -->
-        <a href="blog.html"  class="brand" font-size: 20px;  class="back-arrow">&larr; Back</a>
+        <a href="blog.html" class="brand back-arrow">&larr; Back</a>
     </nav>
 
     <!-- Blog Post -->
@@ -97,26 +111,39 @@
         <h1 class="post-title">Innovative Use of Version 3 Electrolyser: Creating Rubies from Aluminum Foil</h1>
         <p>At HydrogenResearch, innovation is at the heart of everything we do. We’re thrilled to share our latest adventure in the world of science—using our electrolyser to transform ordinary aluminum foil into dazzling synthetic rubies. Yes, you read that right! Our ongoing experiment is a testament to the incredible versatility of our HHO (Hydrogen-Oxygen) technology.</p>
         
-
-        <p>Our journey begins with something as common  as aluminum foil. But don’t be fooled by its everyday nature; this simple material is about to undergo a fascinating metamorphosis.</p>
+        <p>Our journey begins with something as common as aluminum foil. But don’t be fooled by its everyday nature; this simple material is about to undergo a fascinating metamorphosis.</p>
         
-
         <p><strong>From Foil to Fuel:</strong> We start by carefully cleaning the aluminum foil to eliminate any contaminants that could interfere with our experiment. The foil is then cut into small pieces to maximize the surface area, ensuring that the upcoming reactions are as efficient as possible.</p>
         
-       
         <p>Through electrolysis, the aluminum foil encounters a concentrated solution of sodium hydroxide (NaOH), as the aluminum reacts with the sodium hydroxide to produce aluminum hydroxide (Al(OH)₃) and release hydrogen gas (H₂):</p>
         <pre>2Al + 6NaOH + 6H₂O → 2Na₃AlO₃ + 3H₂</pre>
-        
-        <p> To convert our liquid sodium aluminate into solid aluminum hydroxide, we neutralize the solution with sulfuric acid (H₂SO₄). This process precipitates aluminum hydroxide out of the solution:</p>
+        <figure>
+            <img src="webp/rubyAl.jpg" alt="Aluminum Hydroxide">
+            <figcaption>Aluminum Hydroxide</figcaption>
+        </figure>
+        <p>
+           
+            
+            To convert our liquid sodium aluminate into solid aluminum hydroxide, we neutralize the solution with sulfuric acid (H₂SO₄). This process precipitates aluminum hydroxide out of the solution:
+        </p>
         <pre>Na₃AlO₃ + 3H₂SO₄ → Al(OH)₃ + 3Na₂SO₄</pre>
-        
-        <p> Next, we heat the aluminum hydroxide to high temperatures (around 1000-1100°C) in a kiln. This stage, known as calcination, drives off the water and turns the aluminum hydroxide into pure alumina (Al₂O₃):</p>
+
+        <div class="clear"></div> <!-- Clear float after the first image -->
+        <figure>
+            <img src="webp/rubyCr.jpg" alt="Chromium Oxide">
+<figcaption> Cromium oxide</figcaption>
+        </figure>
+        <p>
+            
+           
+            Next, we heat the aluminum hydroxide to high temperatures (around 1000-1100°C) in a kiln. This stage, known as calcination, drives off the water and turns the aluminum hydroxide into pure alumina (Al₂O₃):
+        </p>
         <pre>2Al(OH)₃ → Al₂O₃ + 3H₂O</pre>
-        
-        <h2> Creating the Sparkling Rubies</h2>
+
+        <h2>Creating the Sparkling Rubies</h2>
         <p><strong>From Alumina to Rubies:</strong> The purified alumina is then subjected to intense heat in a controlled environment to simulate the natural conditions under which rubies are formed. We add a touch of chromium (CrO₃) to the alumina to give it that iconic red hue. The result? Stunning synthetic rubies that shine with the same brilliance as their natural counterparts.</p>
         
-        <p>Our experiment is still in the works, but the early results are nothing short of exciting. This groundbreaking project not only demonstrates the fpotential of our  electrolyser.</p>
+        <p>Our experiment is still in the works, but the early results are nothing short of exciting. This groundbreaking project not only demonstrates the potential of our electrolyser.</p>
         
         <p>Stay tuned as we continue to explore the remarkable possibilities of our technology.</p>
     </section>
